@@ -99,3 +99,12 @@ let flintstonesBarney = Object.entries(flintstonesNumbers)
   })
   .shift();
 console.log(flintstonesBarney);
+
+// Question 9: Write two one-line expressions to count then number
+// of lower-case 't' characters in each string.
+
+let statement1 = 'The Flintstones Rock!';
+let statement2 = 'Easy come, easy go.';
+
+console.log((statement1.match(/t/g) || []).length);
+console.log((statement2.match(/t/g) || []).length);
